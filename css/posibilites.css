@@ -1,0 +1,174 @@
+.posibilites{
+    position: relative;
+    background: url(../images/posibilites.webp) no-repeat center;
+    background-size: cover;
+    height: 500px;
+    border-radius: 55px;
+    padding: 30px 50px;
+    margin-bottom: 100px;
+   
+}
+
+.posibilities_title{
+    font-size: 62px;
+    width: 40%;
+    color: var(--secondaryColor);
+    padding-bottom: 20px;
+}
+.posibilities__watch-btn, 
+.posibilites_accessibility-btn{
+    border: transparent;
+    margin-bottom: 10px;
+}
+
+.posibilities__bottom-img{
+    position: absolute;
+    top:500px;
+    left: 40%;
+    
+    right: auto;
+    width: 200px;
+}
+.posibilities__bottom-img img{
+    width: 100%;
+}
+
+
+
+
+
+@media (max-width:900px){
+    
+.posibilites {
+        height: 400px;
+
+    }
+
+.posibilities_title{
+    padding-top: 30px;
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+    color: var(--secondaryColor);
+    padding-bottom: 20px;
+}
+
+.posibilities__watch-btn,
+.posibilites_accessibility-btn {
+    margin: 20px auto;
+}
+.posibilities__bottom-img {
+    position: absolute;
+    top: 400px;
+    left: 35%;
+
+    right: auto;
+    width: 150px;
+}
+
+
+
+
+
+}
+
+@media (max-width:700px) {
+    .posibilites {
+            height: 350px;
+    
+        }
+    .posibilities_title{
+        font-size: 30px;
+    }
+        .posibilities__bottom-img {
+            position: absolute;
+            top: 350px;
+            left: 35%;
+    
+            right: auto;
+            width: 120px;
+        }
+}
+
+@media (max-width:600px) {
+    .posibilites{
+        padding: 10px 30px;
+    }
+    .posibilities_title {
+        font-size: 25px;
+    }
+
+
+}
+
+@media (max-width:500px) {
+    .posibilities_title {
+        font-size: 20px;
+    }
+}
+
+
+@media (max-width:400px) {
+.posibilites {
+        height: 300px;
+
+    }
+
+    .posibilities_title {
+        font-size: 18px;
+    }
+
+    
+        .posibilities__bottom-img {
+            position: absolute;
+            top: 300px;
+            left: 30%;
+    
+            right: auto;
+            width: 120px;
+        }
+}
+
+@media (max-width:350px) {
+    .posibilites {
+        height: 250px;
+
+    }
+
+    .posibilities_title {
+        font-size: 14px;
+    }
+
+    
+        .posibilities__bottom-img {
+            position: absolute;
+            top: 250px;
+            left: 30%;
+    
+            right: auto;
+            width: 100px;
+        }
+}
+
+
+@media (max-width:310px) {
+    .posibilites {
+        height: 250px;
+
+    }
+
+    .posibilities_title {
+        font-size: 12px;
+    }
+    .btn_main{
+        font-size: 10px;
+    }
+        .posibilities__bottom-img {
+            position: absolute;
+            top: 250px;
+            left: 25%;
+    
+            right: auto;
+            width: 80px;
+        }
+}

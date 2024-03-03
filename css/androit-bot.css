@@ -1,0 +1,126 @@
+.android__bot{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    background: url(../images/and-bot.png) no-repeat;
+    background-size: cover;
+    height: 800px;
+    border-radius: 45px;
+    padding: 50px;
+    margin-top: 400px;
+    margin-bottom: 50px;
+}
+
+.android__bot__title{
+    font-size: 60px;
+    width: 40%;
+    color: var(--secondaryColor);
+}
+.android__bot-btn{
+    max-width: 140px;
+}
+
+@media (max-width:1300px) {
+    .android__bot{
+        margin-top: 350px;
+    }
+
+    .android__bot__title{
+        font-size: 50px;
+    }
+}
+@media (max-width:1200px) {
+        .android__bot {
+                margin-top: 300px;
+            }
+}
+
+@media (max-width:1100px) {
+    .android__bot {
+        margin-top: 250px;
+    }
+
+
+}@media (max-width:1000px) {
+    .android__bot {
+        margin-top: 200px;
+        
+    }
+        .android__bot__title {
+            font-size: 40px;
+            width: 50%;
+        }
+
+
+}@media (max-width:900px) {
+    .android__bot {
+        margin-top: 150px;
+    }
+
+
+}@media (max-width:800px) {
+    .android__bot {
+        margin-top: 100px;
+        height: 500px;
+    }
+
+     .android__bot__title {
+            font-size: 40px;
+            width: 70%;
+        }
+}
+
+@media (max-width:700px) {
+    .android__bot {
+            margin-top: 50px;
+            height: 500px;
+        }
+}
+
+@media (max-width:600px) {
+    .android__bot {
+        margin-top: 50px;
+        height: 500px;
+    }
+  .android__bot__title {
+      font-size: 40px;
+      width: 90%;
+  }
+
+}
+
+
+@media (max-width:500px) {
+    .android__bot {
+        margin-top: 20px;
+        height: 500px;
+    }
+
+    .android__bot__title {
+        font-size: 30px;
+        width: 90%;
+    }
+        .android__bot-btn {
+            max-width: 110px;
+        }
+
+}
+
+
+@media (max-width:400px) {
+    .android__bot {
+        margin-top: 0px;
+        height: 500px;
+    }
+
+    .android__bot__title {
+        font-size: 25px;
+        width: 100%;
+    }
+
+    .android__bot-btn {
+        max-width: 110px;
+    }
+
+}

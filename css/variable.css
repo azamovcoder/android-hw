@@ -1,0 +1,93 @@
+:root {
+    --primaryColor: black;
+    --secondaryColor: white;
+    --backgroundColor: blue;
+    --hoverColor:skyblue;
+    --darkModeColor: black;
+}
+
+.dark {
+    --primaryColor: white;
+    --secondaryColor: black;
+    --darkModeColor: yellow;
+}
+.btn{
+    border: 1.5px solid var(--primaryColor);
+    background: var(--secondaryColor);
+    color: var(--primaryColor);
+    padding: 8px 15px;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    transition: 0.4s;
+}
+.btn:hover{
+    background: var(--primaryColor);
+    color: var(--secondaryColor);
+}
+
+
+@media (max-width:700px) {
+    .btn {
+        font-size: 14px;
+    }
+
+
+    .btn {
+        font-size: 14px;
+    }
+}
+
+@media (max-width:500px) {
+    .btn {
+        font-size: 12px;
+        padding: 6px 12px;
+    }
+
+}
+
+
+
+
+
+
+.btn_main{
+    border: transparent;
+    background: #dadce0;
+    color: var(--primaryColor);
+    padding: 8px 15px;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    transition: 0.4s;
+}
+
+.btn_main:hover {
+    background: var(--secondaryColor);
+}
+
+
+@media (max-width:700px) {
+    .btn_main {
+        font-size: 14px;
+    }
+
+
+    .btn_main {
+        font-size: 14px;
+    }
+}
+
+@media (max-width:500px) {
+    .btn_main {
+        font-size: 12px;
+        padding: 6px 12px;
+    }
+
+}
